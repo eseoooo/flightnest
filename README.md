@@ -20,6 +20,13 @@ This app was created to allow users track flights of their choice. It pulls data
 
 Live version: [Flightnest](https://flightnest.netlify.app/)
 
+From the repo:
+
+1. Clone this project locally.
+2. In the root folder, run ```npm install``` in your command line/terminal
+3. Then run ```npm start``` in your command line/terminal
+4. Enjoy!
+
 ## Dependencies
 - React
 - React DOM
