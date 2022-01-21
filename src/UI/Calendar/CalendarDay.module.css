@@ -1,0 +1,30 @@
+.CalendarDay {
+	width: calc(100% / 7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.4rem;
+	border: 2px solid white;
+	/* transition: all 0.3s ease-out; */
+	cursor: pointer;
+}
+
+.CalendarDay--faded {
+	opacity: 0.4;
+}
+
+.CalendarDay--highlighted {
+	color: #fff;
+	background: #425C5A;
+	border: 2px solid #425c5a;
+}
+
+.CalendarDay:hover {
+	border: 2px solid #425c5a;
+}
+
+@media screen and (max-width: 481px) {
+	.CalendarDay {
+		font-size: 1.4rem;
+	}
+}

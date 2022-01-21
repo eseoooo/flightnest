@@ -1,0 +1,14 @@
+.Main {
+	position: relative;
+	margin: 5.8rem auto 6rem auto;
+	max-width: 960px;
+	/* top: 5.8rem; */
+	/* overflow-x: hidden; */
+}
+
+@media screen and (max-width: 1025px) {
+	.Main {
+		padding: 0 2.5rem;
+	}
+}
+

@@ -1,0 +1,22 @@
+.Dashboard {
+	display: grid;
+	row-gap: 5.5rem;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 27rem auto 39rem auto;
+	grid-template-areas:
+		"headerImage headerImage"
+		"displayName displayName"
+		"popularDestinations calendar"
+		"dashboardMap dashboardMap";
+}
+
+@media (max-width: 481px) {
+	.Dashboard {
+		grid-template-rows: 16rem auto 35rem auto;
+		grid-template-areas:
+			"headerImage headerImage"
+			"displayName displayName"
+			"popularDestinations popularDestinations"
+			"dashboardMap dashboardMap";
+	}
+}

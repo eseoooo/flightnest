@@ -1,0 +1,12 @@
+.Pin {
+	position: absolute;
+	height: 3.5rem;
+	width: 3.5rem;
+	/* cursor: pointer; */
+	transform: translate(-50%, 0%);
+}
+
+.Pin svg {
+    height: 100%;
+    width: 100%;
+}

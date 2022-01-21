@@ -1,0 +1,103 @@
+.SignUp {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 990;
+	background-color: white;
+	width: 100vw;
+}
+
+.SignUp__image {
+	flex: 0 0 52rem;
+	height: 100vh;
+	background-image: url("../../resources/images/sign-up-background.svg");
+	/* background by SVGBackgrounds.com */
+}
+
+.SignUp__image {
+	color: #e1eceb;
+	white-space: pre;
+	padding: 8rem 4rem;
+}
+
+.SignUp__image h1 {
+	font-size: 3.2rem;
+	font-weight: 600;
+	text-align: left;
+}
+
+.SignUp__image svg {
+	color: #e1eceb;
+	height: 4.5rem;
+}
+
+.SignUp__image div {
+	margin-bottom: 5rem;
+}
+
+.SignUp__form {
+	flex: 1;
+	height: 100vh;
+	margin: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.SignUp__form form,
+.SignUp__form h2 {
+	max-width: 40rem;
+	width: 100%;
+}
+
+.SignUp__form form {
+	display: flex;
+	column-gap: 1.5rem;
+	row-gap: 4rem;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.SignUp__form form div {
+	flex: 0 0 calc(50% - 0.75rem);
+}
+
+.SignUp__form form div:nth-of-type(5),
+.SignUp__form form div:nth-of-type(6),
+.SignUp__form form div:nth-of-type(7) {
+	flex: 1 0 100%;
+}
+.SignUp__form h2 {
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.SignUp__form h4 {
+	width: 100%;
+	text-align: left;
+	text-transform: none;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.SignUp__form a {
+	text-decoration: none solid rgb(79, 60, 201) auto;
+}
+
+.SignUp__form a.active,
+.SignUp__form a:active {
+	color: rgb(79, 60, 201);
+}
+
+.SignUp__form div input {
+	text-transform: none;
+}
+
+@media screen and (max-width: 961px) {
+	.SignUp__image {
+		display: none;
+	}
+}

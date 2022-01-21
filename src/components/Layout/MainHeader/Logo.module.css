@@ -1,0 +1,14 @@
+.Logo {
+	height: 100%;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	transform: translateX(-1rem);
+	margin-left: 1.5rem;
+}
+
+.Logo svg {
+	cursor: pointer;
+	color: #425c5a;
+	height: 3rem;
+}

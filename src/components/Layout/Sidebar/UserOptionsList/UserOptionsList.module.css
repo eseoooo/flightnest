@@ -1,0 +1,14 @@
+.UserOptionsList {
+    /* margin-left: 1.5rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.UserOptionsList ul {
+    list-style: none;
+}
+
+.UserOptionsList a {
+    text-decoration: none;
+}
+

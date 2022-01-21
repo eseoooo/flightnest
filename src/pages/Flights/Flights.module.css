@@ -1,0 +1,22 @@
+.Flights {
+	display: grid;
+	row-gap: 5.5rem;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-template-rows: 27rem 21.8rem 5.9rem 48rem;
+	grid-template-areas:
+		"headerImage headerImage headerImage"
+		"searchBar searchBar searchBar"
+		"filter filter filter"
+		"results results mapFilter";
+}
+
+@media screen and (max-width: 481px) {
+	.Flights {
+		grid-template-rows: 16rem 24.8rem 5rem 48rem;
+		grid-template-areas:
+			"headerImage headerImage headerImage"
+			"searchBar searchBar searchBar"
+			"filter filter filter"
+			"results results results";
+	}
+}

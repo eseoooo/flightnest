@@ -1,0 +1,16 @@
+.UserImage {
+	font-size: 13rem;
+	display: flex;
+	justify-content: center;
+	margin: 1.5rem 0;
+	border-radius: 100%;
+	overflow: hidden;
+	/* font-weight: lighter; */
+}
+
+.UserImage svg {
+	max-width: 17rem;
+	max-height: 17rem;
+	height: 100%;
+	width: 100%;
+}

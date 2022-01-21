@@ -1,0 +1,25 @@
+.BookmarksList {
+	grid-area: bookmarksList;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: auto;
+	row-gap: 1.5rem;
+	position: relative;
+	z-index: 10;
+	transform: translateY(-5.5rem);
+}
+
+.BookmarksList__item {
+	display: flex;
+	align-items: center;
+}
+
+.BookmarksList__item--data {
+	flex: 0 0 30%;
+}
+
+.BookmarksList__item--data h5 {
+	padding-left: 1.5rem;
+	text-align: left;
+}

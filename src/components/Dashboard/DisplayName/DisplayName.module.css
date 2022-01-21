@@ -1,0 +1,17 @@
+.DisplayName {
+    grid-area: displayName;
+}
+
+.DisplayName h1 {
+    font-size: 3.5rem;
+    text-align: left;
+}
+
+.DisplayName h2,
+.DisplayName h5 {
+	text-align: left;
+}
+
+.DisplayName h5 {
+	text-transform: none;
+}

@@ -1,0 +1,44 @@
+.Filter {
+	grid-area: filter;
+	display: flex;
+	text-transform: uppercase;
+	align-items: center;
+	height: 3.5rem;
+}
+
+.Filter__container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	gap: 1.5rem;
+}
+
+.Filter__result {
+	flex: 4;
+	text-align: left;
+}
+
+.Filter__button {
+	flex: 1;
+}
+
+.Filter__options {
+	display: flex;
+	gap: 1.5rem;
+	flex: 3.5;
+	height: 100%;
+
+}
+
+@media screen and (max-width: 481px) {
+	.Filter__result {
+		flex: 1.5;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.Filter__result {
+		flex: 1.5;
+	}
+}

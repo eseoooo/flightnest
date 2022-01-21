@@ -1,0 +1,35 @@
+.UserOption a {
+	display: flex;
+	align-items: center;
+	height: 8rem;
+	width: 100%;
+	background-color: inherit;
+	border: none;
+	overflow: hidden;
+	letter-spacing: 0.8px;
+	color: white;
+	cursor: pointer;
+	transform-origin: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.UserOption a:hover,
+.UserOption a:active,
+.UserOption a.active {
+	background-color: #e1eceb;
+	color: #425c5a;
+}
+
+.UserOption svg {
+	height: 3rem;
+	width: 3.5rem;
+}
+
+.UserOption__icon {
+	/*8rem from width of sidebar, 3rem from font-size*/
+	margin: 0 calc(calc(8rem - 3rem) / 2);
+}
+
+.UserOption__name {
+	font-size: 1.8rem;
+}

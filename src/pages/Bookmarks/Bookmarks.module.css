@@ -1,0 +1,16 @@
+.Bookmarks {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 27rem 5.9rem 67rem;
+	grid-template-areas:
+		"headerImage"
+		"bookmarksFilter"
+		"bookmarksList";
+	gap: 5.5rem;
+}
+
+@media screen and (max-width: 481px) {
+	.Bookmarks {
+		grid-template-rows: 16rem 5rem 53rem;
+	}
+}

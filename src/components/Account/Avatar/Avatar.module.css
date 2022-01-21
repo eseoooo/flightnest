@@ -1,0 +1,46 @@
+.Avatar {
+	grid-area: "avatar";
+	background-color: white;
+	border-radius: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 1px 3px 0px rgb(66, 92, 90, 0.3),
+		0px 4px 8px 3px rgb(66, 92, 90, 0.15);
+}
+
+.Avatar > h4 {
+	font-weight: 600;
+	height: 3.5rem;
+	text-align: left;
+	/*45% * 2 from flex: 0 0 45% + 1rem column gap*/
+	width: calc(90% + 1rem);
+	margin: 0 auto;
+}
+
+.Avatar__container {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	width: calc(90% + 1rem);
+}
+
+.Avatar__container > * {
+	width: 15rem;
+	height: 3.5rem;
+}
+
+.Avatar__image {
+	height: 10rem;
+	width: 10rem;
+	border-radius: 10rem;
+	overflow: hidden;
+	/* background-color: royalblue; */
+}
+
+.Avatar__image svg {
+	height: 100%;
+	width: 100%;
+	color: #c99c33;
+}

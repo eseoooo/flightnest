@@ -1,0 +1,60 @@
+.Option {
+	height: 5.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 40;
+	background-color: #e1eceb;
+	color: #425c5a;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	padding-right: 0.5rem;
+}
+
+.Option:hover {
+	background-color: #425c5a;
+	color: #fff;
+}
+
+.Option > span {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-family: inherit;
+	font-weight: 600;
+	color: inherit;
+}
+
+.Option__icon {
+	color: inherit;
+	width: 3.5rem;
+	height: 2.5rem;
+	position: absolute;
+	top: 50%;
+	left: 0.5rem;
+	transform: translateY(-50%);
+}
+
+.Option__icon svg {
+	height: 100%;
+	width: 100%;
+	color: inherit;
+}
+
+@media screen and (max-width: 481px) {
+	.Option {
+		height: 3.5rem;
+	}
+
+	.Option > span {
+		font-size: 1.3rem;
+	}
+
+	.Option__icon svg {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 376px) {
+}

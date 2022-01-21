@@ -1,0 +1,65 @@
+.Modal {
+}
+
+.Modal__container {
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: fixed;
+	z-index: 850;
+	top: 50%;
+	left: 50%;
+	max-width: min(80vmin, 800px);
+	max-height: 70vmin;
+	width: 100%;
+	height: 100%;
+	padding: 3rem;
+	background-color: #e1eceb;
+	animation: slide-in 0.3s ease-out 1 forwards;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.Modal__backdrop {
+	position: fixed;
+	transform: none;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 800;
+	background: rgba(66, 92, 90, 0.75);
+	backdrop-filter: blur(5px);
+}
+
+.Modal__close {
+	position: absolute;
+	top: 1rem;
+	right: 1.5rem;
+	cursor: pointer;
+}
+
+.Modal__close svg {
+	height: 3.5rem;
+	width: 2.5rem;
+}
+
+@keyframes slide-in {
+	0% {
+		opacity: 0;
+		transform: translate(-50%, -100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@media (max-width: 641px) {
+	.Modal__container {
+		max-width: 90vw;
+		max-height: 50vh;
+	}
+}

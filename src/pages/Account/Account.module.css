@@ -1,0 +1,16 @@
+.Account {
+    display: grid;
+    gap: 5.5rem;
+    grid-template-columns: 100%;
+    grid-template-rows: 27rem 17rem 40rem;
+    grid-template-areas:
+		"headerImage"
+        "avatar"
+        "accountForm"
+}
+
+@media screen and (max-width: 481px) {
+	.Account {
+		grid-template-rows: 16rem 17rem 40rem;
+	}
+}

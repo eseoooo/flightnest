@@ -1,0 +1,80 @@
+.SingleInput {
+	max-height: 5.5rem;
+	width: 100%;
+	height: 100%;
+	background-color: #e1eceb;
+	display: flex;
+	border-radius: 0.4rem;
+	align-items: center;
+	justify-content: flex-start;
+	border: solid #e1eceb 1px;
+	transition: all 0.3s ease;
+	padding: 0 1rem;
+	gap: 1rem;
+}
+
+.SingleInput:hover {
+	box-shadow: 0 0 0 4px rgba(66, 92, 90, 0.15);
+}
+
+.SingleInput:focus-within {
+	border: solid #425c5a 1px;
+	box-shadow: 0 0 0 4px rgba(66, 92, 90, 0.15);
+}
+
+.SingleInput svg {
+	color: #425c5a;
+	width: 3.5rem;
+	height: 2.5rem;
+}
+
+.SingleInput input {
+	width: 100%;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-family: inherit;
+	font-weight: 600;
+	color: #425c5a;
+}
+
+.SingleInput input::placeholder {
+	text-transform: none;
+}
+
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+	display: none;
+	-webkit-appearance: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+@media screen and (max-width: 481px) {
+	.SingleInput {
+		max-height: 3.5rem;
+	}
+
+	.SingleInput input {
+		font-size: 1.3rem;
+	}
+
+	.SingleInput svg {
+		color: #425c5a;
+		width: 3rem;
+		height: 2rem;
+	}
+}

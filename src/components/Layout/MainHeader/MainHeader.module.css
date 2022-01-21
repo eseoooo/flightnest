@@ -1,0 +1,81 @@
+.MainHeader {
+	width: 100vw;
+	height: 5.8rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #e1eceb;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding-right: 1rem;
+	box-shadow: 0px 1px 3px 0px rgb(66, 92, 90, 0.3),
+		0px 4px 8px 3px rgb(66, 92, 90, 0.15);
+}
+
+.MainHeader__menu-button {
+	width: 8rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+.MainHeader__menu-button:hover {
+	background-color: #3d5654;
+}
+
+.MainHeader__button {
+	height: 3.5rem;
+	width: 10rem;
+}
+
+.MainHeader__button a {
+	text-decoration: none;
+	color: unset;
+}
+
+.MainHeader__button--sign-in button:hover {
+	background-color: initial;
+	color: initial;
+}
+
+.MainHeader__button--sign-up,
+.MainHeader__button--sign-out {
+	margin-right: 1.5rem;
+}
+
+.MainHeader__menu-button svg {
+	height: 3rem;
+	width: 3.5rem;
+}
+
+.MainHeader__notification {
+	position: fixed;
+	display: none;
+	top: 5.8rem;
+	width: 100%;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	height: 3rem;
+	font-weight: 300;
+	font-size: 1.4rem;
+	z-index: 999;
+}
+
+.MainHeader__notification svg {
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 481px) {
+	.MainHeader__button--sign-up {
+		display: none;
+	}
+}

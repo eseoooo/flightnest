@@ -1,0 +1,81 @@
+.ResultData {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	padding: 0 2.3rem;
+	display: flex;
+}
+
+.ResultData__item {
+	flex: 1 0 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	position: relative;
+	gap: 0.3rem;
+}
+
+.ResultData__item button {
+	font-size: 1rem;
+}
+.ResultData svg {
+	fill: #425c5a;
+	height: 5rem;
+	width: 5rem;
+}
+
+.ResultData__item:nth-of-type(4) svg {
+	height: 2.5rem;
+	width: 2.5rem;
+	/* cursor: pointer; */
+	fill: #c99c33;
+}
+
+.ResultData__item:nth-child(4) {
+	align-items: flex-end;
+}
+
+.ResultData__item:nth-child(even) {
+	justify-content: center;
+}
+
+.ResultData__inbound {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	color: white;
+	background-color: #425c5a;
+	border-radius: 0.4rem;
+	display: flex;
+	padding: 0 2.3rem;
+	transition: all 0.3s ease-in;
+}
+
+.ResultData__inbound svg {
+	fill: white;
+	height: 5rem;
+	width: 5rem;
+}
+
+.ResultData__item--outbound,
+.ResultData__item--inbound{
+	cursor: pointer;
+	padding: 0 1rem;
+	border-radius: 0.4rem;
+}
+.ResultData__item--outbound {
+	background-color: #425c5a;
+	color: white;
+}
+
+.ResultData__item--inbound {
+	background-color: white;
+	color: #425c5a;
+}

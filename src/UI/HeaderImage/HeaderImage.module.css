@@ -1,0 +1,15 @@
+.HeaderImage {
+	grid-area: headerImage;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-image: linear-gradient(to bottom, #425c5a, #425c5a81);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: lighten;
+	text-transform: capitalize;
+	border-radius: 0 0 0.8rem 0.8rem;
+}
+

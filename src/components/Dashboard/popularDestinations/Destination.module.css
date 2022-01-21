@@ -1,0 +1,39 @@
+.Destination {
+	height: 99.5%;
+	flex: 0 0 31%;
+	border-radius: 0.8rem;
+	transition: all 0s ease;
+	/* cursor: pointer; */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 1.5rem;
+	overflow: hidden;
+	position: relative;
+	transition: all 0.3s ease-out;
+}
+
+.Destination:hover {
+	transform: scale(0.97);
+	/* box-shadow: 0 0 0 4px rgba(66, 92, 90, 0.15); */
+	box-shadow: 1px 0px 3px 0px rgb(66, 92, 90, 0.3),
+		-1px 0px 3px 0px rgb(66, 92, 90, 0.3), 4px 0px 8px 3px rgb(66, 92, 90, 0.15),
+		-4px 0px 8px 3px rgb(66, 92, 90, 0.15);
+}
+
+.Destination h2,
+.Destination h3 {
+	color: white;
+	text-transform: capitalize;
+	text-align: right;
+	text-shadow: 2px 2px 3px #425c5a, 4px 4px 5px black;
+	/* background-color: rgba(0, 0, 0, 0.1); */
+	/* backdrop-filter: drop-shadow(4px 4px 10px blue); */
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.Destination h3 {
+	font-size: 2.2rem;
+}

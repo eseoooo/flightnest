@@ -1,0 +1,8 @@
+.Results {
+	position: relative;
+	grid-area: results;
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+    transform: translateY(-5.5rem);
+}

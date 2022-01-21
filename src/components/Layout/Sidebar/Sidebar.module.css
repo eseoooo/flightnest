@@ -1,0 +1,49 @@
+.Sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-height: 100vh;
+	width: 8rem;
+	height: 100vh;
+	background-color: #425c5a;
+	transition: all 0.3s ease-out;
+	z-index: 90;
+	box-shadow: 1px 0px 3px 0px rgb(66, 92, 90, 0.3),
+		4px 0px 8px 3px rgb(66, 92, 90, 0.15);
+}
+
+@keyframes appear {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.Sidebar h1,
+.Sidebar h2,
+.Sidebar button {
+	opacity: 0;
+}
+
+.Sidebar:hover h1,
+.Sidebar:hover h2,
+.Sidebar:hover button {
+	animation: appear 0.1s ease-out 0.3s forwards;
+}
+
+.Sidebar:hover {
+	width: 35rem;
+}
+
+@media screen and (max-width: 1201px) {
+	/* .Sidebar {
+		display: none;
+	} */
+	.Sidebar h1,
+	.Sidebar h2,
+	.Sidebar button {
+		animation: appear 0.1s ease-out 0.3s forwards;
+	}
+}

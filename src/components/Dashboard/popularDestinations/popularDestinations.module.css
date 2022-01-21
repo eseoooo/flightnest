@@ -1,0 +1,16 @@
+.PopularDestinations {
+	grid-area: popularDestinations;
+	margin-right: 1.5rem;
+	overflow-y: hidden;
+	overflow-x: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transform: translateY(-5rem);
+}
+
+@media (max-width: 481px) {
+	.PopularDestinations {
+        padding: 0;
+	}
+}

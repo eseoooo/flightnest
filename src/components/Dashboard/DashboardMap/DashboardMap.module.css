@@ -1,0 +1,11 @@
+.DashboardMap {
+    grid-area: dashboardMap;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: flex-end;
+	transform: translateY(-5rem);
+    box-shadow: 1px 0px 3px 0px rgb(66, 92, 90, 0.3),
+    -1px 0px 3px 0px rgb(66, 92, 90, 0.3), 4px 0px 8px 3px rgb(66, 92, 90, 0.15),
+    -4px 0px 8px 3px rgb(66, 92, 90, 0.15);
+
+}
