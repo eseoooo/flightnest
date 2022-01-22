@@ -3,7 +3,7 @@
 This app was created to allow users track flights of their choice. It pulls data from the [Skyscanner API](https://www.partners.skyscanner.net/affiliates/travel-apis)
 
 **LIVE LINK**: [https://flightnest.netlify.app/](https://flightnest.netlify.app/)  
-**APP DEMO**: 
+**APP DEMO**: [https://bit.ly/3rFfoEP](https://bit.ly/3rFfoEP)
 
 ## Features
 - Track flight prices of your choice. The data from the API is limited and not as good as Google's API. It's recommended to limit searches to national flights. 
@@ -20,7 +20,7 @@ This app was created to allow users track flights of their choice. It pulls data
 
 Live version: [Flightnest](https://flightnest.netlify.app/)
 
-From the repo:
+From the repo: 
 
 1. Clone this project locally.
 2. In the root folder, run ```npm install``` in your command line/terminal
